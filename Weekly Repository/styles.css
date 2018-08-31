@@ -1,0 +1,38 @@
+body{
+	font-family: 'Baumans';
+	text-align: left;
+	margin-top: 5px;
+	letter-spacing: 2.5px;
+	font-size: 10pt;
+}
+
+.module{
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	
+}
+
+.descriptor{
+	margin-top: 10px;
+	letter-spacing: 2.5px;
+	font-size: 8pt;
+	width: 300px;
+	float: left;
+}
+
+.align{
+	width: 300px;
+	height: 368px;
+	float: left;
+	padding: 10px;
+
+}
+
+.middle{
+	float: left;
+}
+
+#left{
+	padding-left:0px;
+}
