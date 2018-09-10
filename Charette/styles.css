@@ -1,0 +1,710 @@
+div.artboard{
+	margin: auto;
+	width: 600px;
+}
+
+/* Black Letter Box */
+
+button.letter{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 50px;
+	position: relative;
+	background-color: black;
+}
+
+/* Neg Space Units */
+div.FxF{
+	width: 200px;
+	height:200px;
+	background-color: white;
+	position: relative;
+}
+
+div.TxO{
+	width:50px;
+	height:100px;
+	background-color: white;
+	position: relative;
+}
+
+
+/* A */
+
+
+div.FxF#A{
+	top: 100px;
+	left: 50px;
+}
+
+div.TxO#A{
+	top: 100px;
+	left: 300px;
+}
+
+#Button1:hover {
+	background-color: white;
+
+}
+
+#Button2:hover {
+	transform: skewY(20deg);
+
+}
+
+#Button3:hover {
+	transform: scaleY(.5);
+	transform: scaleX(.5);
+}
+
+#Button4:hover {
+	transform: rotate(40deg);
+}
+
+#Button5:active {
+	position: fixed;
+	transform: scaleY(.2);
+	transform: scaleX(.2); 
+	top: 100px;
+	left: 30px;
+}
+
+#Button6:active{
+	transform: scaleY(.2);
+	transform: scaleX(.2); 
+	background-color: magenta;
+}
+
+#Button7:active{
+	transform: scaleY(50);
+	transform: scaleX(50); 
+	background-color: navy;
+}
+
+
+#Button8:active {
+	padding-bottom:400px;
+	opacity: 0.5;
+	transition: 3s;
+	background-color: cyan;
+}
+
+#Button9:hover {
+	background-color: magenta;
+	transition: .5s;
+}
+
+#Button9:active{
+	background-color: magenta;
+	transform: scale(.5);
+}
+
+#Button10:hover {
+	background-color: magenta;
+	transition: .5s;
+	padding-bottom: 25px;
+	padding-left: 100px;
+}
+
+#Button10:active{
+	background-color: magenta;
+	transform: scale(1.4);
+	position: relative;
+	bottom: 50px;
+}
+
+#Button11:hover {
+	background-color: black;
+	transition: .5s;
+	transform: scale(100);
+}
+
+#Button12:hover {
+	background-color: black;
+	transition: 4s;
+	transform: scale(0);
+	padding-top: 2000px;
+}
+
+#Button13:hover {
+	background-color: black;
+	transition: 4s;
+	transform: scale(20);
+	padding-top: 2000px;
+}
+
+#Button14:hover {
+	background-color: rgba(150,23,97, .9);
+	transition: 4s;
+	transform: scale(20);
+	padding-top: 8000px;
+}
+
+#Button15:hover {
+	transform: skew(1080deg);
+	transition: 3s;
+}
+
+#Button16:hover {
+	transform: skew(-2160deg);
+	transition: 5s;
+}
+
+
+#Button17:active {
+	margin-left: 1000px;
+
+}
+
+#Button18:hover {
+	transition: 1s;
+	transform: scale(10);
+	padding-top: 8000px;
+}
+
+#Button18:active {
+	transition: 3s;
+	position: fixed;
+	left: 500px;
+}
+
+#Button19:hover {
+	transition: 3s;
+	padding-top: 8000px;
+}
+
+#Button20:hover {
+	transition: 3s;
+	margin-top: 150px;
+}
+
+#Button21:hover {
+	transition: 3s;
+	padding-left: 500px;
+	padding-top: 300px;
+}
+
+#Button22:hover {
+	transition: .3s;
+	color: white;
+	font-size: 30pt;
+	float: left;
+	padding-bottom: 100px;
+
+}
+
+#Button23:hover {
+	background-color: white;
+	transition: 10s;
+	position: absolute;
+	padding-bottom: 100px;
+
+}
+
+#Button24:hover {
+	margin: auto;
+	background-color: white;
+	color: black;
+
+}
+
+#Button25:hover {
+	background-color: red;
+	color: white;
+	transform: rotateX(180deg);
+	transition: 2s;
+}
+
+#Button26:hover {
+	background-color: red;
+	color: white;
+	transform: rotateX(180deg);
+	transition: 5s;
+	font-size: 300pt;
+}
+
+#Button27:hover {
+	background-color: #ffff;
+	color: cyan;
+	font-size: 400pt;
+	margin: auto;
+}
+
+#Button28:active {
+	background-color: blue;
+	color: rgba(255,255,255,.5);
+	transform: scale(20);
+	font-size: 600pt;
+	transition: 4s;
+}
+
+#Button29:active {
+	background-color: red;
+	color: rgba(255,255,255,.5);
+	transform: scale(20);
+	font-size: 600pt;
+	transition: 10s;
+	line-height: 4px;
+	position: absolute;
+}
+
+#Button30:hover {
+	background-color: blue;
+	color: rgba(255,255,255,.5);
+	transform: rotate(20deg);
+	font-size: 600pt;
+	transition: 10s;
+	line-height: 4px;
+}
+
+#Button31:hover {
+	background-color: blue;
+	color: rgba(255,255,255,.1);
+	transform: skew(180deg)
+	font-size: 600pt;
+	transition: 10s;
+	line-height: 4px;
+}
+
+#Button32:hover {
+	background-color: lime;
+	color: rgba(255,255,0,.7);
+	transform: skew(180deg)
+	transform: translateX(500px);
+	font-size: 600pt;
+	transition: 6s;
+	line-height: 4px;
+}
+
+#Button33:hover {
+	transform: translate(300px);
+	transition: 10s;
+	padding-left: 1000px;
+	
+}
+
+#Button34:hover {
+	transform: translate(-300px);
+	transition: 5s;
+	padding-right: 1000px;
+	
+}
+
+#Button35:hover {
+	transform: translate(-500px);
+	transition: 2s;
+}
+
+#Button35:active{
+		padding-right: 2000px;
+		transition: .4s;
+	
+}
+
+#Button36:hover {
+	transform: translate(700px);
+	transition: .5s;
+}
+
+#Button36:active{
+		padding-left: 2000px;
+		transition: 2s;
+		background-color: purple;
+
+}
+
+
+#Button37:active{
+		padding-left: 2000px;
+		transition: 2s;
+		background-color: crimson;
+		height: 800px;
+
+}
+
+#Button38:active{
+	padding-left: 4000px;
+	transition: 22s;
+	background-color: orange;
+	width: 2000px;
+
+}
+
+#Button39:active{
+	transform: scale(.1);
+	transition: 22s;
+
+}
+
+#Button40:hover{
+	transform: scale(.1);
+	transition: 40s;
+
+}
+
+#Button41:active{
+	border: 1000px;
+	border-width: 1000px;
+	padding-bottom: 200px;
+}
+
+#Button42:active{
+		padding-left: 2000px;
+		transition: 2s;
+		transform: skewY(180deg);
+		background-color: green;	
+
+}
+
+#Button43:active{
+		padding-left: 2000px;
+		transition: 4s;
+		transform: skewY(180deg);
+		background-color: yellow;
+		transform: scaleY(2);	
+
+}
+
+#Button44:active{
+		padding-bottom: 4000px;
+		transition: 1s;
+		transform: skewY(180deg);
+		background-color: lime;
+		transform: scaleX(2);	
+
+}
+
+#Button45:active{
+		height: 4000px;
+		transition: 1s;
+		transform: skewY(180deg);
+		background-color: navy;
+		transform: scaleX(2);
+		transform: translateY(-4000px);	
+
+}
+
+#Button46:active{
+		height: 4000px;
+		transition: 10s;
+		transform: skewY(180deg);
+		background-color: blue;
+		transform: scaleX(2);
+		transform: translateY(-4000px);	
+		width: 5000px;
+
+}		
+
+#Button47:active{
+		height: 4000px;
+		transition: 10s;
+		transform: skewY(180deg);
+		background-color: crimson;
+		transform: scaleY(2);
+		transform: translateY(-4000px);	
+		height: 5000px;
+
+}
+
+#Button48:active{
+		height: 4000px;
+		transition: 10s;
+		transform: skewY(180deg);
+		background-color: navy;
+		transform: scaleY(2);
+		transform: translateY(4000px);	
+		height: 5000px;
+		width: 5000px;
+}
+
+#Button49:active{
+		transition: 10s;
+		transform: skewY(180deg);
+		background-color: maroon;
+		transform: scaleY(2);
+		transform: translate(4000px);	
+		height: 5px;
+		width: 5px;
+}
+
+#Button50:active{
+		transition: 1s;
+		transform: skewY(180deg);
+		background-color: red;
+		transform: scaleY(.2);
+		transform: translateX(4000px);	
+		height: 5px;
+		width: 5px;
+}
+
+#Button51:hover{
+		transition: 100s;
+		transform: rotateY(180deg);
+		background-color: white;
+		transform: scaleX(.2);
+		transform: translate(10000px);	
+		height: 5px;
+		width: 5px;
+}
+
+#Fifty2B{
+		background-color: white;
+		width:50px;
+	height:100px;
+	position: relative;
+	top: -100px;
+	left: 300px;
+
+
+}
+#Fifty2B:hover{
+		background-color: blue;
+
+
+}
+
+#Fifty2A{
+		background-color: white;
+		width: 200px;
+	height:200px;
+	position: relative;
+	top: -50px;
+	left: -350px;
+
+}
+
+#Fifty2A:hover{
+		background-color: red;
+
+}
+
+
+
+#Fifty3B{
+		background-color: white;
+		width:50px;
+	height:100px;
+	position: relative;
+	top: -100px;
+	left: 300px;
+
+
+}
+#Fifty3B:hover{
+		background-color: blue;
+		height: 5000px
+
+
+}
+
+#Fifty3A{
+		background-color: white;
+		width: 200px;
+	height:200px;
+	position: relative;
+	top: -50px;
+	left: -350px;
+
+}
+
+#Fifty3A:hover{
+		background-color: red;
+		width: 5000px;
+
+}
+
+#Button54:active{
+		transition: .5s;
+		transform: skewY(10000deg);
+}
+
+#Button55:hover{
+		transition: .1s;
+		transform: translateY(10000px);
+}
+
+#Button56:hover{
+		transition: 12s;
+		transform: skewY(180deg);
+		background-color: red;
+		transform: scaleY(.2);
+		transform: translateX(4000px);	
+		height: 5px;
+		width: 5px;
+		position: relative;
+	top: -50px;
+	left: -350px;
+}
+
+#Button57:active{
+		transition: 12s;
+		transform: skewY(180deg);
+		background-color: blue;
+		transform: scaleY(.2);
+		transform: translateX(4000px);	
+		height: 5px;
+		width: 5px;
+		position: relative;
+	top: -50px;
+	left: -350px;
+}
+
+#Button58:active{
+		transform: skewX(10000deg);
+		background-color: pink;
+		transform: scaleX(4);
+}
+
+#Button59:hover{
+		transform: skewX(10000deg);
+		background-color: gold;
+		transform: scaleX(4);
+		transform: rotate(180deg);
+}
+
+#Button60:hover{
+		background-color: gold;
+		transform: scaleX(.1);
+		transform: rotate(45deg);
+}
+
+#Button61:active{
+		background-color: yellow;
+		transform: scale(4);
+		transform: rotate(45deg);
+}
+
+#Button62:active{
+		border-width: 100px;
+		border-color: white;
+}
+
+#Button63:active{
+		border-width: 100px;
+		border-color: orange;
+		height: 500px;
+		width: 500px;
+}
+
+#Button64:hover{
+		border-width: 100px;
+		border-color: orange;
+		height: 5000px;
+		width: 500px;
+		transition: 5s;
+}
+
+#Button65:hover{
+		border-width: 100px;
+		border-color: orange;
+		height: 50px;
+		width: 5000px;
+		transition: 3s;
+}
+
+#Button66:active{
+		border-width: 1000px;
+		border-color: cyan;
+		height: 50px;
+		width: 5000px;
+		transition: 3s;
+		padding-left: 400px;
+}
+
+#Button67:active{
+		border-width: 200px;
+		border-color: cyan;
+		width: 5000px;
+		transition: 3s;
+		padding-bottom: 400px;
+		transform: translate(-600px);
+		float:left;
+}
+
+#Button68:active{
+		border-right-width:200px;
+		border-color: magenta;
+		transition: 3s;
+		padding-bottom: 400px;
+
+}
+
+#Button69:active{
+		border-top-width:200px;
+		border-color: maroon;
+		transition: 3s;
+		padding-bottom: -400px;
+
+}
+
+#Button70:active{
+		border-left-width:100px;
+		border-color: lime;
+		transition: .2s;
+		padding-bottom: 100px;
+
+}
+
+#Button71:hover{
+		border-bottom-width:300px;
+		border-color: cyan;
+		transition: 1s;
+		padding-bottom: 150px;
+
+}
+
+#Button72:active{
+		border-bottom-width:300px;
+		border-color: cyan;
+		padding-bottom: 150px;
+		top:-500;
+
+}
+
+#Button73:hover{
+		border-bottom-width:100px;
+		border-color: red;
+		padding-bottom: 400px;
+		top:-900;
+
+}
+
+#Button74:hover{
+		border-width: 50px;
+		border-color: pink;
+		padding-right: 500px;
+
+}
+
+#Button75:hover{
+		border-width: 50px;
+		border-color: brown;
+		padding-right: 500px;
+		padding-bottom: 1000px;
+		transform: translateY(1000px);
+		height: 1000px;
+		transition: 4s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
