@@ -1,0 +1,102 @@
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: black;
+
+}
+
+.box{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:35%;
+	left:35%;
+	background-color: white;
+}
+
+.box2{
+	position: fixed;
+	width: 25%;
+	height: 10%;
+	top: 0%;
+	left: 0%;
+	background-image: url("prettybeach.jpg")
+}
+
+.box2#two{
+	top: 10%;
+	left: 25%;
+}
+
+.box2#three{
+	top: 20%;
+	left: 50%;
+}
+
+.box2#four{
+	top: 30%;
+	left: 75%;
+}
+
+
+
+
+
+a{
+	width: 100%;
+	height: 100%;
+}
+
+
+@media (max-width: 1500px) { 
+	.box2{
+		top: 0%;
+		left: 0%;
+}
+
+@media (max-width: 600px) { 
+	.box2{
+		height: 100%;
+}
+
+@media (max-width: 1500px) { 
+	.box2#two{
+		top: 10%;
+		left: 25%;
+}
+
+@media (max-width: 600px) { 
+	.box2#two{
+		height: 100%;
+}
+
+@media (max-width: 1500px) { 
+	.box2#three{
+		top: 20%;
+		left: 50%;
+}
+
+@media (max-width: 600px) { 
+	.box2#three{
+		height: 100%;
+}
+
+@media (max-width: 1500px) { 
+	.box2#four{
+		top: 30%;
+		left: 75%;
+}
+
+@media (max-width: 600px) { 
+	.box2#four{
+		height: 100%;
+}
+
+
+
+
+

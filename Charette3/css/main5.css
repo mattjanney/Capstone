@@ -1,0 +1,195 @@
+
+.container{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: black;
+
+}
+
+.box{
+	position:absolute;
+	width:30%;
+	height:30%;
+	top:35%;
+	left:35%;
+	background-color: magenta;
+}
+
+a{
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 1200px) { 
+	.container{
+		background-color: black;
+
+	}
+
+
+@media (max-width: 600px) { 
+	.container{
+		background-image: url("city.jpg");
+	}
+
+
+@media (max-width: 1400px) { 
+	.box{	
+		width: 100%;
+		height: 100%;
+		background-blend-mode: multiply;
+	}
+}
+
+@media (max-width: 1375px) { 
+	.box{	
+		width: 10%;
+	}
+}
+@media (max-width: 1350px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1325px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1300px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1275px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1250px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1225px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1200px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1175px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1150px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+		background-blend-mode: overlay;
+	}
+}
+
+@media (max-width: 1125px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1100px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1075px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1050px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1250px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 1025px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 1000px) { 
+	.box{
+		
+		width: 10%;
+	}
+}
+
+@media (max-width: 975px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 950px) { 
+	.box{
+		width: 10%;
+	}
+}
+
+@media (max-width: 925px) { 
+	.box{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 900px) { 
+	.box{
+		background-color: green;
+		width: 10%;
+	}
+}
+
+@media (max-width: 875px) { 
+	.box{
+		width: 100%;
+	}
+}
+
+@media (max-width: 850px) { 
+	.box{
+		width: 10%;
+		height: 10%;
+	}
+}

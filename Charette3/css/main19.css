@@ -1,0 +1,68 @@
+
+.container{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background-color: black;
+	opacity: 1;
+
+}
+
+.box{
+	position:fixed;
+	width:100%;
+	height:20%;
+	top:40%;
+	left:0%;
+	background-image: url("city.jpg")
+	opacity: 1;
+}
+
+video.box{
+	object-fit: fill;
+}
+
+
+@media (min-width: 700px) { 
+	.box{
+		height: 40%;
+		opacity: .5;
+}
+
+@media (min-width: 800px) { 
+	.box{
+		height: 60%;
+		opacity: .3;
+		top: 20%;
+}
+
+@media (min-width: 900px) { 
+	.box{
+		height: 80%;
+		opacity: .8;
+		top: 10%;
+}
+
+@media (min-width: 1000px) { 
+	.box{
+		height: 1000%;
+		opacity: .5;
+		top: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
