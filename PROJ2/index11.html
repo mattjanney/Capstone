@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	
+	<title>SCROLL</title>
+	<link rel="icon" href="favicon2.png">
+	<link rel="stylesheet" href="css/main2.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Press+Start+2P" rel="stylesheet">
+
+</head>
+<body>
+
+	<video autoplay muted loop id="myVideo">
+  <source src="video1.m4v" type="video/mp4">
+	</video>
+
+
+
+
+
+<div class="skrollr-container">
+
+<!--
+	<div class="shutter" id="one"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)"></div>
+	<div class="shutter" id="two"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)">
+			</div>
+	<div class="shutter" id="three"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)">
+			</div>
+	<div class="shutter" id="four"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)">
+			</div>
+	<div class="shutter" id="five"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)">
+			</div>
+	<div class="shutter" id="six"
+	data-0="display:none;
+			background:hsl(44.3,92%,65.9%);
+			transform: rotate(0deg)"
+	data-50="display: block"
+	data-3000="background: hsl(44.3,92%,65.9%)"
+	data-end="background:hsl(920, 100%, 50%);
+				transform: rotate(1060deg)">
+			</div> -->
+
+	<div class="png" id="bottom"
+	data-0p="opacity: 1;
+			display: block"
+	data-1000p="opacity: .8"
+	data-1200p="opacity:0;
+			display: none"
+	></div>
+
+	<div class="png" id="full"
+	data-0p="left[cubic]: 0%;
+			opacity: 0;
+			display:block"
+	data-300p="top[cubic]: -2%;
+			opacity: .9;
+			left: 2%"
+	data-400p-="top: -1%;
+			opacity: .7"
+	data-700p="top: 15%;
+			opacity: .3;
+			left: -7%"
+	data-800p="top: 1%
+			opacity: .1"
+	data-900p="display: none"
+	></div>
+
+	<div class="png" id="full"
+	data-0p="left[cubic]: 0%;
+			opacity: 0;
+			display:block"
+	data-700p="
+			opacity: .9;
+			left: 7%"
+	data-900p-="
+			opacity: .7"
+	data-1000p="
+			opacity: .4;
+			left: -5%"
+	data-1100p="
+			opacity: .1"
+	data-1200p="display: none"
+	></div>
+
+	<div class="png" id="full"
+	data-0p="left[cubic]: 0%;
+			opacity: 0;
+			display:block"
+	data-200p="
+			opacity: .3;
+			left: -3%"
+	data-300p-="
+			opacity: .4"
+	data-600p="
+			opacity: .2;
+			left: 4%"
+	data-700p="top: 0%
+			opacity: .1"
+	data-800p="display: none"
+	></div>
+
+	<div class="png" id="full"
+	data-0p="left[cubic]: 0%;
+			opacity: 1;
+			top[cubic]: 0%;
+			display:block"
+	data-100p="left: -1%;
+			opacity: .9;"
+	data-200p-="left: 0%;
+			opacity: 1"
+	data-300p="left: 2%;
+			opacity: .8"
+	data-400p="left: -2%;
+			opacity: .7"
+	data-500p="left: 2%;
+			opacity: .6"
+	data-600p="left: -1%;
+			opacity: .6"
+	data-700p="left: 0%;
+			opacity: .7
+			"
+	data-800p="left: 8%;
+			opacity: .8
+			"
+	data-900p="left: -4%
+			"
+	data-1180p="left: 5%;
+				opacity: .6
+				"
+	data-1185p="left: -5%;
+				opacity: .3"
+	data-1190p="left: 0%"
+	data-1200p="display:none"
+	></div>
+
+	<div class="png" id="eighty"
+	data-0p="left[cubic]: .5%;
+			opacity: .8;
+			top[cubic]: 0%;
+			display:block"
+	data-110p="left: -2%;
+			opacity: .7"
+	data-210p-="left: 3%;
+			opacity: 1"
+	data-310p="left: -5%;
+			opacity: .5"
+	data-410p="left: 6%;
+			opacity: .6"
+	data-510p="left: -1%;
+			opacity: .7"
+	data-610p="left: 5%;
+			opacity: .6"
+	data-710p="left: -3%;
+			opacity: .8;
+			top: 1%"
+	data-1010p="left: -5%;
+			opacity: .7;
+			top: 0%"
+	data-1110p="left: 0%;
+				top: -1%"
+	data-1175p="left: -10%;
+				opacity: .6"
+	data-1187p="left: 5%;
+				opacity: .4;
+				top: 0%"
+	data-1194p="left: 0%"
+	data-1200p="display:none"
+	></div>
+
+	<div class="png" id="fifty"
+	data-0p="left[cubic]: 1%;
+			opacity: .5;
+			display:block"
+	data-120p="left: 4%;
+			opacity: .4"
+	data-220p-="left: -2%;
+			opacity: .3"
+	data-320p="left: 6%;
+			opacity: .4"
+	data-420p="left: -5%;
+			opacity: .5"
+	data-520p="left: 2%;
+			opacity: .4"
+	data-620p="left: -3%;
+			opacity: .3"
+	data-720p="left: 0%;
+			opacity: .2"
+	data-920p="left: -7%;
+			opacity: .3"
+	data-1120p="left: 0%"
+	data-1184p="left: 1%;
+				opacity: .4"
+	data-1189p="left: -5%;
+				opacity: .2"
+	data-1196p="left: 0%"
+	data-1200p="display:none"
+	
+	></div>
+
+	<div class="png" id="twenty"
+	data-0p="left[cubic]: 1.5%;
+			opacity: .2;
+			top[cubic]: 0%;
+			display:block"
+	data-130p="left: 5%;
+			opacity: .3"
+	data-230p-="left: -1%;
+			opacity: .4"
+	data-330p="left: 6%;
+			opacity: .3"
+	data-430p="left: -4%;
+			opacity: .2"
+	data-530p="left: 7%;
+			opacity: .1"
+	data-830p="left: -1%;
+			opacity: .2"
+	data-930p="left: 0%;
+			top: -1%;
+			opacity: .3"
+	data-1030p="left: 6%;
+			opacity: .4;
+			top: 0%;"
+	data-1130p="left: 0%;
+				top: 1%"
+	data-1187p="left: -2%;
+				opacity: .7;
+				top: 0%"
+	data-1194p="left: -3%;
+				opacity: .2"
+	data-1198p="left: 0%"
+	data-1200p="display:none"
+	></div>
+
+	<a href="page2.html" class="click" id="full"
+	data-0p="left:0%;
+			display: none"
+	data-900p="opacity: .05;
+			display: block"
+	data-1000p="left: -1%;
+			opacity: .1"
+	data-1150p="left: 1%;
+			opacity: .2"
+	data-1200p="left: 0%;
+			opacity: 1"
+	></a>
+
+
+
+	
+
+
+
+	
+		
+
+	</div>
+	
+		
+
+	</div>
+
+	
+			<!-- 
+			-ms-transform: rotate(0deg);
+			-webkit-transform: rotate(0deg);
+			transform: rotate(0deg);
+			 -->
+</div>
+</div>
+</div>
+
+<div id='helper'>
+	<div class="marker one"></div>
+	<div class="marker two"></div>
+	<div class="marker three"></div>
+	<div class="marker four"></div>
+	</div>
+
+
+
+<script src="js/skrollr.min.js">
+
+	
+</script>
+
+<script type="text/javascript">
+    var s = skrollr.init({
+});
+</script>
+
+<script type="text/javascript">
+	var background = Math.random() * 5;
+ if (0 < background && background <= 1) {
+   $(".png").css({
+     'background-image': 'url("scroll.png")'
+   });
+ }
+ else if (1 < background && background <= 2) {
+   $(".png").css({
+     'background-image': 'url("scroll2.png")'
+   });
+ }
+ else if (2 < background && background <= 3) {
+   $(".png").css({
+     'background-image': 'url("scroll3.png")'
+   });
+ }
+ else if (3 < background && background <= 4) {
+   $(".png").css({
+     'background-image': 'url("scrollgreen.png")'
+   });
+ }
+ else {
+   $(".png").css({
+     'background-image': 'url("scroll5.png")'
+   });
+ }
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+	var background = Math.random() * 5;
+ if (0 < background && background <= 1) {
+   $(".click").css({
+     'background-image': 'url("click.png")'
+   });
+ }
+ else if (1 < background && background <= 2) {
+   $(".click").css({
+     'background-image': 'url("click2.png")'
+   });
+ }
+ else if (2 < background && background <= 3) {
+   $(".click").css({
+     'background-image': 'url("clickyellow.png")'
+   });
+ }
+ else if (3 < background && background <= 4) {
+   $(".click").css({
+     'background-image': 'url("click4.png")'
+   });
+ }
+ else {
+   $(".click").css({
+     'background-image': 'url("click5.png")'
+   });
+ }
+</script>
+
+</body>
+</html>
